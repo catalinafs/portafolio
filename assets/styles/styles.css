@@ -1,0 +1,238 @@
+:root{
+    --background-all-page: #1a1919;
+    --1: #E45640;
+    --2: #ffffff;
+    --3: #484545;
+    --4: #BFBFBF;
+    --5: #989898;
+    --background-container-second-part: #2a2a2a;
+    --6: #3cb081;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif; /*'Roboto',*/
+    box-sizing: border-box;
+    color: var(--2);
+}
+
+body{
+    background-color: var(--background-all-page);
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-presentation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_image_title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-image{
+    margin: 60px 0;
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+}
+
+.div-hello{
+    width: 150px;
+    height: 57px;
+    position: absolute;
+    top: 290px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    background-color: var(--3);
+}
+
+.hello{
+    font-size: 43px;
+    font-family: sans-serif;
+    color: var(--1);
+}
+
+.portfolio_about{
+    margin: 4px;
+    padding: 20px;
+    gap: 25px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.my_name_is{
+    font-size: 33px;
+    font-weight: 100;
+    color: var(--4);
+}
+
+.paragraph-presentation{
+    margin: 0px auto;
+    width: 53%;
+    font-size: 17px;
+    display: inline-block;
+    color: var(--5);
+}
+
+/* .container-services-habilities-skills{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.container-second-part{
+    width: auto;
+    max-width: 90%;
+    height: 100%;
+    word-break: break-word;
+    text-align: center;
+    background-color: var(--background-container-second-part);
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.services{
+    margin: 15px 3%;
+    gap: 21px;
+    text-align: center;
+    display: grid;
+    grid-template-rows: auto;
+    justify-items: center;
+    align-content: center;
+}
+
+.services-paragraph{
+    width: 64%;
+}
+
+.services-container-cards{
+    margin: 18px 18px;
+    gap: 13px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-content: center;
+}
+
+.cards{
+    margin: 3%;
+    width: 86%;
+    gap: 12px;
+    font-size: 14px;
+    text-align: center;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-rows: auto;
+    justify-items: center;
+    align-content: center;
+}
+
+.cards-h3{
+    color: var(--1);
+}
+
+.start-of-education-and-experience{
+    box-sizing: inherit;
+    margin: 0px auto;
+}
+
+.educationANDexperience{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+
+.container-educationANDexperience{
+    margin: 8px 0px 34px 0px;
+    border: 1px solid white;
+    width: 49%;
+}
+
+.title-educationsANDexperiences{
+    display: inline;
+    text-align: center;   
+}
+
+.parts-of-stick-circle-title-description{
+    width: 343px;
+    height: 425px;
+    overflow: hidden scroll;
+}
+
+.stick-circle-title-description{
+    box-sizing: inherit;
+}
+
+.stick{
+    width: 5px;
+    height: 425px;
+    margin-left: 45px;
+    background-color: var(--2);
+    position: absolute;
+}
+
+.father-of-circle-title-description{
+    padding: 0px 13px;
+    display: grid;
+    grid-template-rows: auto;
+}
+
+.circle-title-description{
+    display: flex;
+}
+
+
+.circle-ED{
+    position: relative;
+    border-radius: 50%;
+    margin: 11px 5px 22px 7px;
+    background-color: var(--6);
+    height: 55px;
+    width: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle-EX{
+    position: relative;
+    border-radius: 50%;
+    margin: 11px 5px 22px 7px;
+    background-color: var(--2);
+    height: 55px;
+    width: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-description{
+    width: 220px;
+    margin: 0px 11px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: initial;
+}
