@@ -91,17 +91,11 @@ body{
     color: var(--5);
 }
 
-/* .container-services-habilities-skills{
-    box-sizing: border-box;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
-
 .container-second-part{
     width: auto;
-    max-width: 90%;
+    max-width: 86%;
     height: 100%;
+    margin-bottom: 24px;
     word-break: break-word;
     text-align: center;
     background-color: var(--background-container-second-part);
@@ -113,7 +107,7 @@ body{
 }
 
 .services{
-    margin: 15px 3%;
+    margin: 40px 3%;
     gap: 21px;
     text-align: center;
     display: grid;
@@ -161,12 +155,12 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 35px;
+    gap: 38px;
 }
 
 .container-educationANDexperience{
     margin: 8px 0px 34px 0px;
-    width: 49%;
+    width: 42%
 }
 
 .title-educationsANDexperiences{
@@ -175,18 +169,14 @@ body{
 }
 
 .parts-of-stick-circle-title-description{
-    width: 343px;
-    height: 425px;
+    width: 100%;
+    height: 63vh;
     overflow: hidden scroll;
-}
-
-.stick-circle-title-description{
-    box-sizing: inherit;
 }
 
 .stick{
     width: 5px;
-    height: 425px;
+    height: 63vh;
     margin-left: 45px;
     background-color: var(--2);
     position: absolute;
@@ -200,38 +190,49 @@ body{
 
 .circle-title-description{
     display: flex;
+    margin-bottom: 15px;
 }
 
 
 .circle-ED{
-    position: relative;
-    border-radius: 50%;
-    margin: 11px 5px 22px 7px;
+    height: 60px;
+    width: 60px;
+    min-width: 60px;
+    min-height: 60px;
     background-color: var(--6);
-    height: 55px;
-    width: 55px;
+    border-radius: 50%;
+    outline: 7px solid var(--background-container-second-part);
+    margin: 20px 2px 16px 4px;
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .circle-EX{
-    position: relative;
-    border-radius: 50%;
-    margin: 11px 5px 22px 7px;
+    height: 60px;
+    width: 60px;
+    min-width: 60px;
+    min-height: 60px;
     background-color: var(--2);
-    height: 55px;
-    width: 55px;
+    border-radius: 50%;
+    outline: 7px solid var(--background-container-second-part);
+    margin: 20px 2px 16px 4px;
+    position: relative;
+    box-sizing: border-box;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .title-description{
-    width: 220px;
-    margin: 0px 11px;
+    width: 100%;
+    margin: 4px 8px;
+    padding: 0px 18px;
+    background-color: #353535;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    text-align: initial;
+    text-align: left;
+    border-radius: 29px;
 }
